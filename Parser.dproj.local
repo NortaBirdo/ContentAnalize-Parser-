@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.512,D:\Delphi Projects\Парсер\ExcelReportUnit.pas=D:\Delphi Projects\Парсер\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.733,C:\Users\Nikolay\Documents\RAD Studio\Projects\Unit1.dfm=D:\Delphi Projects\Парсер\MainUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.057,D:\Delphi Projects\Парсер\Unit1.pas=D:\Delphi Projects\Парсер\AboutFormUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.265,D:\Delphi Projects\Парсер\Unit1.pas=D:\Delphi Projects\Парсер\HelpFormUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.060,=D:\Delphi Projects\Парсер\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.707,D:\Delphi Projects\Парсер\Unit1.dfm=D:\Delphi Projects\Парсер\WordModelUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.057,D:\Delphi Projects\Парсер\Unit1.dfm=D:\Delphi Projects\Парсер\AboutFormUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.265,D:\Delphi Projects\Парсер\Unit1.dfm=D:\Delphi Projects\Парсер\HelpFormUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.517,C:\Users\Nikolay\Documents\RAD Studio\Projects\Project1.dproj=D:\Delphi Projects\Парсер\Parser.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.175,D:\Delphi Projects\Парсер\Unit1.dfm=D:\Delphi Projects\Парсер\WordFormUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.699,D:\Delphi Projects\Парсер\WordFormUnit.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.713,=D:\Delphi Projects\Парсер\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.836,=C:\Users\Nikolay\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.733,C:\Users\Nikolay\Documents\RAD Studio\Projects\Unit1.pas=D:\Delphi Projects\Парсер\MainUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.929,=C:\Users\Nikolay\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.957,=D:\Delphi Projects\Парсер\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.175,D:\Delphi Projects\Парсер\Unit1.pas=D:\Delphi Projects\Парсер\WordFormUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.707,D:\Delphi Projects\Парсер\Unit1.pas=D:\Delphi Projects\Парсер\WordModelUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.887,=D:\Delphi Projects\Парсер\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.877,=D:\Delphi Projects\Парсер\Unit1.pas</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="AboutFormUnit.pas"/>
+    <File Path="AboutFormUnit.dfm"/>
+    <File Path="ExcelReportUnit.pas"/>
+    <File Path="HelpFormUnit.pas"/>
+    <File Path="HelpFormUnit.dfm"/>
+    <File Path="MainUnit.pas"/>
+    <File Path="MainUnit.dfm"/>
+    <File Path="WordModelUnit.pas"/>
+    <File Path="WordModelUnit.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
