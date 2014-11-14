@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ComCtrls, Vcl.StdCtrls,
-  Vcl.Grids, Vcl.ExtDlgs, Vcl.Mask, Vcl.DBCtrls, Vcl.DBGrids;
+  Vcl.Grids, Vcl.ExtDlgs, Vcl.Mask, Vcl.DBCtrls, Vcl.DBGrids, Vcl.ExtCtrls;
 
 type
   TMainForm = class(TForm)
@@ -51,6 +51,7 @@ type
     Excel1: TMenuItem;
     N6: TMenuItem;
     RichEdit1: TRichEdit;
+    SettingSearchGroup: TRadioGroup;
     procedure ViewBtnClick(Sender: TObject);
     procedure N3Click(Sender: TObject);
     procedure StartParsBtnClick(Sender: TObject);
@@ -337,6 +338,7 @@ var
   sTemp, str: string;
   OutputCount: integer;
   i, j: integer;
+  descision: boolean;
 begin
   if WordModel.IsEmpty then
   begin
@@ -434,11 +436,20 @@ begin
     while not(ADQueryWord.eof) do
     begin
       //если находим морфему
-// для нечеткого вхождения      if ansipos(LowerCase(GetWord), LowerCase(ParsText.Strings[i])) <> 0 then
 
-      //строгое соответствие
+      //проверяем настройки поиска
+      if SettingSearchGroup.ItemIndex = 1 then
+      // для нечеткого вхождения
+        if ansipos(LowerCase(GetWord), LowerCase(ParsText.Strings[i])) <> 0 then
+          descision := true
+        else descision := false
+      else        //строгое соответствие
+        if AnsiLowerCase(GetWord) = CatLastSymbol(AnsiLowerCase(ParsText.Strings[i])) then
+            descision := true
+        else descision := false;
 
-      if AnsiLowerCase(GetWord) = CatLastSymbol(AnsiLowerCase(ParsText.Strings[i])) then
+
+      if descision then
       begin
         Point := Length(OutputText);
         SetLength(OutputText, Point+1);

@@ -41,7 +41,7 @@ object MainForm: TMainForm
   end
   object Label4: TLabel
     Left = 542
-    Top = 104
+    Top = 147
     Width = 97
     Height = 13
     Caption = #1056#1077#1079#1091#1083#1100#1090#1072#1090' '#1072#1085#1072#1083#1080#1079#1072
@@ -106,10 +106,10 @@ object MainForm: TMainForm
     TabOrder = 5
   end
   object StartParsBtn: TButton
-    Left = 764
-    Top = 39
-    Width = 245
-    Height = 50
+    Left = 542
+    Top = 95
+    Width = 467
+    Height = 46
     Caption = #1057#1090#1072#1088#1090
     TabOrder = 6
     OnClick = StartParsBtnClick
@@ -210,9 +210,9 @@ object MainForm: TMainForm
   end
   object OutputMemo: TRichEdit
     Left = 542
-    Top = 123
+    Top = 166
     Width = 467
-    Height = 502
+    Height = 459
     Font.Charset = RUSSIAN_CHARSET
     Font.Color = clWindowText
     Font.Height = -11
@@ -286,8 +286,8 @@ object MainForm: TMainForm
     OnClick = ImportBtnClick
   end
   object RichEdit1: TRichEdit
-    Left = 175
-    Top = 519
+    Left = 151
+    Top = 421
     Width = 650
     Height = 89
     Font.Charset = RUSSIAN_CHARSET
@@ -305,8 +305,21 @@ object MainForm: TMainForm
     TabOrder = 14
     Visible = False
   end
+  object SettingSearchGroup: TRadioGroup
+    Left = 784
+    Top = 38
+    Width = 185
+    Height = 51
+    Caption = #1055#1072#1088#1072#1084#1077#1090#1088#1099' '#1087#1086#1080#1089#1082#1072
+    ItemIndex = 0
+    Items.Strings = (
+      #1057#1090#1088#1086#1075#1080#1081' '#1087#1086#1080#1089#1082
+      #1042#1093#1086#1078#1076#1077#1085#1080#1103)
+    TabOrder = 15
+  end
   object MainMenu1: TMainMenu
-    Left = 832
+    Left = 584
+    Top = 40
     object Afqk1: TMenuItem
       Caption = #1060#1072#1081#1083
       object N4: TMenuItem
@@ -340,7 +353,8 @@ object MainForm: TMainForm
   end
   object OpenTextFileDialog1: TOpenTextFileDialog
     Filter = #1058#1077#1082#1089#1090#1086#1074#1099#1081' '#1092#1072#1081#1083'|*.txt'
-    Left = 744
+    Left = 648
+    Top = 40
   end
   object SaveDialog1: TSaveDialog
     Filter = 'RTF|*.rtf'
@@ -348,7 +362,7 @@ object MainForm: TMainForm
   end
   object OpenDialog1: TOpenDialog
     Filter = 'MS Excel 2007-2010|*.xlsx|MS Excel 97-2003|*.xls'
-    Left = 440
-    Top = 456
+    Left = 368
+    Top = 432
   end
 end
